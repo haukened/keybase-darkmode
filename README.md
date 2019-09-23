@@ -15,12 +15,17 @@ Currently, these platforms are able to:
 First things first, you should be working with an up-to-date keybase client.
 
 ## Desktops:
-1)  Open a terminal
-1.1) Windows: `run cmd.exe`
-1.2) macOS: open `terminal`
+1) Open a terminal
+
+   Windows: `run cmd.exe`
+
+   macOS: open `terminal`
+
 2) Type `keybase update` and press enter.
 3) You should see your current version as:
-`YYYY/MM/DD HH:MM:SS INFO Checking for update, current version is 4.5.0-*`
+
+   `YYYY/MM/DD HH:MM:SS INFO Checking for update, current version is 4.5.0-*`
+
 ## Android:
 (This is a work in progress)
 1) Open the google play store and update the KeyBase App
@@ -29,21 +34,33 @@ First things first, you should be working with an up-to-date keybase client.
 ## Desktops:
 1) In that same terminal (you still have it open right?) type `keybase status` and press enter
 2) look for the output in the `Service:` section that starts with `log:`
-(Mine says `C:\Users\haukened\AppData\Local\Keybase\keybase.kbfs.log` but your may vary depending on operating system and installation)
+
+   (Mine says `C:\Users\haukened\AppData\Local\Keybase\keybase.kbfs.log` but your may vary depending on operating system and installation)
+   
 3) Remove the log filename from that to get the `PATH` to the directory
-(in my example that would be `C:\Users\haukened\AppData\Local\Keybase\`)
+
+   (in my example that would be `C:\Users\haukened\AppData\Local\Keybase\`)
+   
 ## Android:
 (Work in Progress)
 
 # Creating the debug file
 4) Go to that folder in your file explorer, terminal, or whatever you like to use
-4.1) Most Command Lines: `cd C:\Users\haukened\AppData\Local\Keybase\`
+
+   Most Command Lines: `cd C:\Users\haukened\AppData\Local\Keybase\`
+   
 5) Create a new text file in that location called keybase.app.debug
-5.1) Windows: `haukened> notepad.exe c:\Users\haukened\AppData\Local\Keybase\keybase.app.debug`
-5.2) *nix: TBD
-5.3) Android: TBD
+
+   Windows: `haukened> notepad.exe c:\Users\haukened\AppData\Local\Keybase\keybase.app.debug`
+   
+   *nix: TBD
+   
+   Android: TBD
+   
 6) In that file, place the following:
-`{ "featureFlagsOverride": "darkMode" }`
+
+   `{ "featureFlagsOverride": "darkMode" }`
+
 7) Save the file
 8) Restart KeyBase (or on windows you can just reboot, if you don't know how to exit keybase and restart the service)
 9) In the KeyBase client, go to `Settings` -> `Advanced` -> `Dark Mode` and select the radio button for dark mode.
