@@ -49,9 +49,9 @@ The path can usually be reached on any Linux system at `~/.cache/keybase/`. If t
 4) Go to that folder in your file explorer, terminal, or whatever you like to use
 4.1) Most Command Lines: `cd C:\Users\haukened\AppData\Local\Keybase\` or `cd ~/.cache/keybase/`
 5) Create a new text file in that location called keybase.app.debug
-5.1) Windows: `haukened> notepad.exe c:\Users\haukened\AppData\Local\Keybase\keybase.app.debug`
-5.2) In a Linux terminal, `$ nano ~/.cache/keybase/keybase.app.debug` or open any graphical text editor
-5.3) Android: TBD
+  - Windows: `haukened> notepad.exe c:\Users\haukened\AppData\Local\Keybase\keybase.app.debug`
+  - In a Linux terminal, `$ nano ~/.cache/keybase/keybase.app.debug` or open any graphical text editor
+  - Android: TBD
 6) In that file, place the following:
 `{ "featureFlagsOverride": "darkMode" }`
 7) Save the file
