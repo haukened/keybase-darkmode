@@ -6,9 +6,9 @@ Below we'll detail how you can get dark mode (preview) enabled before the releas
 
 # Can I use this?
 Currently, these platforms are able to:
-|Windows|macOS|*Nix|Android|iPhone
-|--|--|--|--|--|
-|Yes|Yes|Yes|Yes|No|
+| Windows | macOS | \*Nix | Android | iPhone |
+|---------|-------|-------|---------|--------|
+|   Yes   |  Yes  |  Yes  |   Yes   |   No   |
 
 # Getting up to date
 First things first, you should be working with an up-to-date keybase client.
