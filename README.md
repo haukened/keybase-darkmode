@@ -15,11 +15,16 @@ Currently, these platforms are able to:
 First things first, you should be working with an up-to-date keybase client.
 
 ## Desktops:
+
 1) Open a terminal
 
    Windows: `run cmd.exe`
 
    macOS: open `terminal`
+   
+   Linux with Gnome 3: open Activities and type `terminal`, click on the icon when it appears
+   
+   Linux with Gnome 3: open Activities and type `terminal`, click on the icon when it appears
 
 2) Type `keybase update` and press enter.
 3) You should see your current version as:
@@ -32,15 +37,27 @@ First things first, you should be working with an up-to-date keybase client.
 
 # Finding your configuration path
 ## Desktops:
+### Windows:
 1) In that same terminal (you still have it open right?) type `keybase status` and press enter
 2) look for the output in the `Service:` section that starts with `log:`
+
 
    (Mine says `C:\Users\haukened\AppData\Local\Keybase\keybase.kbfs.log` but your may vary depending on operating system and installation)
    
 3) Remove the log filename from that to get the `PATH` to the directory
 
    (in my example that would be `C:\Users\haukened\AppData\Local\Keybase\`)
-   
+### Linux:
+The path can usually be reached on any Linux system at `~/.cache/keybase/`. If that doesn't seem to exist, use the following steps to find it:
+1) In that same terminal (you still have it open right?) type `keybase status` and press enter
+2) look for the output in the `Service:` section that starts with `log:`
+
+  (Mine says `/home/brian/.cache/keybase/keybase.service.log` but yours may vary depending on Linux distribution and installation)
+  
+3) Remove the log filename from that to get the `PATH` to the directory
+
+  (in my example that would be `/home/brian/.cache/keybase/`)
+
 ## Android:
 (Work in Progress)
 
@@ -53,7 +70,12 @@ First things first, you should be working with an up-to-date keybase client.
 
    Windows: `haukened> notepad.exe c:\Users\haukened\AppData\Local\Keybase\keybase.app.debug`
    
-   *nix: TBD
+   In a Linux terminal: `$ nano ~/.cache/keybase/keybase.app.debug`
+   
+   In a Linux desktop:
+   
+   - open any graphical text editor and save into `~/.cache/keybase/`
+   - change the filename to `keybase.app.debug` and save again
    
    Android: TBD
    
@@ -62,7 +84,7 @@ First things first, you should be working with an up-to-date keybase client.
    `{ "featureFlagsOverride": "darkMode" }`
 
 7) Save the file
-8) Restart KeyBase (or on windows you can just reboot, if you don't know how to exit keybase and restart the service)
+8) Restart KeyBase (or you can just reboot, if you don't know how to exit keybase and restart the service)
 9) In the KeyBase client, go to `Settings` -> `Advanced` -> `Dark Mode` and select the radio button for dark mode.
 10) Enjoy your status as one of the cool kids.
 11) (Optional) If you're 21+ and a consenting adult, have a beer.
