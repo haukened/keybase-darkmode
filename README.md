@@ -23,8 +23,6 @@ First things first, you should be working with an up-to-date keybase client.
    macOS: open `terminal`
    
    Linux with Gnome 3: open Activities and type `terminal`, click on the icon when it appears
-   
-   Linux with Gnome 3: open Activities and type `terminal`, click on the icon when it appears
 
 2) Type `keybase update` and press enter.
 3) You should see your current version as:
