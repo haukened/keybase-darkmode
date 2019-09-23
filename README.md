@@ -68,3 +68,7 @@ First things first, you should be working with an up-to-date keybase client.
 11) (Optional) If you're 21+ and a consenting adult, have a beer.
 
 
+# images
+
+![darkmode in menu](images/keybaseDarkmode01.png)
+![darkmode chat](images/keybaseDarkmode02.png)
