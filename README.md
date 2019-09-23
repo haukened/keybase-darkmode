@@ -6,6 +6,7 @@ Below we'll detail how you can get dark mode (preview) enabled before the releas
 
 # Can I use this?
 Currently, these platforms are able to:
+
 | Windows | macOS | \*Nix | Android | iPhone |
 |---------|-------|-------|---------|--------|
 |   Yes   |  Yes  |  Yes  |   Yes   |   No   |
