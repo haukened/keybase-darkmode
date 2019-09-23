@@ -26,11 +26,14 @@ First things first, you should be working with an up-to-date keybase client.
 1) Open the google play store and update the KeyBase App
 
 # Finding your configuration path
+## Desktops:
 1) In that same terminal (you still have it open right?) type `keybase status` and press enter
 2) look for the output in the `Service:` section that starts with `log:`
 (Mine says `C:\Users\haukened\AppData\Local\Keybase\keybase.kbfs.log` but your may vary depending on operating system and installation)
 3) Remove the log filename from that to get the `PATH` to the directory
 (in my example that would be `C:\Users\haukened\AppData\Local\Keybase\`)
+## Android:
+(Work in Progress)
 
 # Creating the debug file
 4) Go to that folder in your file explorer, terminal, or whatever you like to use
