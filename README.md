@@ -2,6 +2,8 @@
 
 I assume you're here because you just can't possibly wait for keybase dark mode.  If you're not, you're likely lost - head on over to [Google](https://google.com) to find what you're looking for there.
 
+![darkmode chat](images/keybaseDarkmode02.png)
+
 Below we'll detail how you can get dark mode (preview) enabled before the release in the official keybase app, but proceed with caution - ***the authors of this document are NOT responsible for nasty things that it or you might do to your computer/phone/tablet by following these instructions***
 
 # Can I use this?
@@ -34,7 +36,7 @@ First things first, you should be working with an up-to-date keybase client.
 1) Open the google play store and update the KeyBase App
 
 # Finding your configuration path
-## Desktops:
+
 ### Windows:
 1) In that same terminal (you still have it open right?) type `keybase status` and press enter
 2) look for the output in the `Service:` section that starts with `log:`
@@ -56,7 +58,7 @@ The path can usually be reached on any Linux system at `~/.cache/keybase/`. If t
 
   (in my example that would be `/home/brian/.cache/keybase/`)
 
-## Android:
+### Android:
 (Work in Progress)
 
 # Creating the debug file
@@ -91,4 +93,3 @@ The path can usually be reached on any Linux system at `~/.cache/keybase/`. If t
 # images
 
 ![darkmode in menu](images/keybaseDarkmode01.png)
-![darkmode chat](images/keybaseDarkmode02.png)
