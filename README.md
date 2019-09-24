@@ -13,7 +13,7 @@ Currently, these platforms are able to:
 |---------|-------|-------|---------|--------|
 |   Yes   |  Yes  |  Yes  |   Maybe\*   |   No   |
 
-* - Android May be possible by app side load, but is sufficiently difficult to be beyond the scope of this "beta" feature. 
+\* Android May be possible by app side load, but is sufficiently difficult to be beyond the scope of this "beta" feature. 
 
 # Getting up to date
 First things first, you should be working with an up-to-date keybase client.
