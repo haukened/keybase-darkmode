@@ -11,7 +11,9 @@ Currently, these platforms are able to:
 
 | Windows | macOS | \*Nix | Android | iPhone |
 |---------|-------|-------|---------|--------|
-|   Yes   |  Yes  |  Yes  |   Yes   |   No   |
+|   Yes   |  Yes  |  Yes  |   Maybe\*   |   No   |
+
+* - Android May be possible by app side load, but is sufficiently difficult to be beyond the scope of this "beta" feature. 
 
 # Getting up to date
 First things first, you should be working with an up-to-date keybase client.
@@ -31,16 +33,11 @@ First things first, you should be working with an up-to-date keybase client.
 
    `YYYY/MM/DD HH:MM:SS INFO Checking for update, current version is 4.5.0-*`
 
-## Android:
-(This is a work in progress)
-1) Open the google play store and update the KeyBase App
-
 # Finding your configuration path
 
 ### Windows:
 1) In that same terminal (you still have it open right?) type `keybase status` and press enter
 2) look for the output in the `Service:` section that starts with `log:`
-
 
    (Mine says `C:\Users\haukened\AppData\Local\Keybase\keybase.kbfs.log` but your may vary depending on operating system and installation)
    
@@ -58,8 +55,6 @@ The path can usually be reached on any Linux system at `~/.cache/keybase/`. If t
 
   (in my example that would be `/home/brian/.cache/keybase/`)
 
-### Android:
-(Work in Progress)
 
 # Creating the debug file
 4) Go to that folder in your file explorer, terminal, or whatever you like to use
@@ -76,8 +71,6 @@ The path can usually be reached on any Linux system at `~/.cache/keybase/`. If t
    
    - open any graphical text editor and save into `~/.cache/keybase/`
    - change the filename to `keybase.app.debug` and save again
-   
-   Android: TBD
    
 6) In that file, place the following:
 
