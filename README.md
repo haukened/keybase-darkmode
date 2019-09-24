@@ -18,6 +18,8 @@ Currently, these platforms are able to:
 # Getting up to date
 First things first, you should be working with an up-to-date keybase client.
 
+   - If you're on Linux, and brave, you can install a nightly build using the [officical documentation](https://keybase.io/docs/linux-user-guide#nightly-builds). This provides several darkmode bug fixes that aren't in the mainline branch.  If you do this, skip down to `Finding your configuration path`.
+
 ## Desktops:
 
 1) Open a terminal
