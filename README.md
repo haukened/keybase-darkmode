@@ -59,11 +59,11 @@ The path can usually be reached on any Linux system at `~/.cache/keybase/`. If t
 
 
 # Creating the debug file
-4) Go to that folder in your file explorer, terminal, or whatever you like to use
+1) Go to that folder in your file explorer, terminal, or whatever you like to use
 
    Most Command Lines: `cd C:\Users\haukened\AppData\Local\Keybase\`
    
-5) Create a new text file in that location called keybase.app.debug
+2) Create a new text file in that location called keybase.app.debug
 
    Windows: `haukened> notepad.exe c:\Users\haukened\AppData\Local\Keybase\keybase.app.debug`
    
@@ -74,15 +74,15 @@ The path can usually be reached on any Linux system at `~/.cache/keybase/`. If t
    - open any graphical text editor and save into `~/.cache/keybase/`
    - change the filename to `keybase.app.debug` and save again
    
-6) In that file, place the following:
+3) In that file, place the following:
 
    `{ "featureFlagsOverride": "darkMode" }`
 
-7) Save the file
-8) Restart KeyBase (or you can just reboot, if you don't know how to exit keybase and restart the service)
-9) In the KeyBase client, go to `Settings` -> `Advanced` -> `Dark Mode` and select the radio button for dark mode.
-10) Enjoy your status as one of the cool kids.
-11) (Optional) If you're 21+ and a consenting adult, have a beer.
+4) Save the file
+5) Restart KeyBase (or you can just reboot, if you don't know how to exit keybase and restart the service)
+6) In the KeyBase client, go to `Settings` -> `Advanced` -> `Dark Mode` and select the radio button for dark mode.
+7) Enjoy your status as one of the cool kids.
+8) (Optional) If you're 21+ and a consenting adult, have a beer.
 
 
 # images
