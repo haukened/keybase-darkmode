@@ -27,7 +27,7 @@ First things first, you should be working with an up-to-date keybase client.
    Windows: `run cmd.exe`
 
    macOS: open `terminal`
-   
+
    Linux with Gnome 3: open Activities and type `terminal`, click on the icon when it appears
 
 2) Type `keybase update` and press enter.
@@ -38,21 +38,16 @@ First things first, you should be working with an up-to-date keybase client.
 # Finding your configuration path
 
 ### Windows:
-1) In that same terminal (you still have it open right?) type `keybase status` and press enter
-2) look for the output in the `Service:` section that starts with `log:`
+1) Open a run prompt (Win-R).
+2) Fill in `%LocalAppData%\Keybase` and press return.
 
-   (Mine says `C:\Users\haukened\AppData\Local\Keybase\keybase.kbfs.log` but your may vary depending on operating system and installation)
-   
-3) Remove the log filename from that to get the `PATH` to the directory
-
-   (in my example that would be `C:\Users\haukened\AppData\Local\Keybase\`)
 ### Linux:
 The path can usually be reached on any Linux system at `~/.cache/keybase/`. If that doesn't seem to exist, use the following steps to find it:
 1) In that same terminal (you still have it open right?) type `keybase status` and press enter
 2) look for the output in the `Service:` section that starts with `log:`
 
   (Mine says `/home/brian/.cache/keybase/keybase.service.log` but yours may vary depending on Linux distribution and installation)
-  
+
 3) Remove the log filename from that to get the `PATH` to the directory
 
   (in my example that would be `/home/brian/.cache/keybase/`)
@@ -62,18 +57,18 @@ The path can usually be reached on any Linux system at `~/.cache/keybase/`. If t
 1) Go to that folder in your file explorer, terminal, or whatever you like to use
 
    Most Command Lines: `cd C:\Users\haukened\AppData\Local\Keybase\`
-   
+
 2) Create a new text file in that location called keybase.app.debug
 
    Windows: `haukened> notepad.exe c:\Users\haukened\AppData\Local\Keybase\keybase.app.debug`
-   
+
    In a Linux terminal: `$ nano ~/.cache/keybase/keybase.app.debug`
-   
+
    In a Linux desktop:
-   
+
    - open any graphical text editor and save into `~/.cache/keybase/`
    - change the filename to `keybase.app.debug` and save again
-   
+
 3) In that file, place the following:
 
    `{ "featureFlagsOverride": "darkMode" }`
