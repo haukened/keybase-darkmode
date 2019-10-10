@@ -1,3 +1,5 @@
+## this repo is now archived, as keybase released dark mode!
+
 # So you want keybase dark mode...
 
 I assume you're here because you just can't possibly wait for keybase dark mode.  If you're not, you're likely lost - head on over to [Google](https://google.com) to find what you're looking for there.
